@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¡Holi owo!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <audio id="bg-music" src="assets/Bolero8bit.mp3" loop></audio>
+
+    <div id="welcome-screen" class="splash-layer">
+      <div class="welcome-content">
+        <img
+          src="assets/digiegg.png"
+          alt="Digi-Egg"
+          class="digiegg-btn"
+          id="start-btn"
+        />
+        <p class="pixel-text animate-pulse">CLICK AL DIGI-EGG PARA ENTRAR</p>
+      </div>
+    </div>
+
+    <div id="page" class="hidden">
+      <header>
+        <div id="header_content">
+          <h1 class="title-digi">MOISES'S ADVENTURE</h1>
+          <h2 class="subtitle-event">36TH ANNIVERSARY PROJECT</h2>
+        </div>
+      </header>
+
+      <div id="digital">
+        <div id="wave_header"></div>
+
+        <div class="wrapper">
+          <main class="card-body">
+            <div class="digivice-header-container">
+              <img
+                src="assets/digivice.png"
+                alt="Digivice"
+                class="digivice-main"
+              />
+            </div>
+
+            <div class="details-box">
+              <div class="detail-item">
+                <img
+                  src="assets/calendar.png"
+                  alt="Calendario"
+                  class="pixel-icon"
+                />
+                <p class="pixel-detail">
+                  <strong>FECHA:</strong> Sábado, 06 de junio
+                </p>
+              </div>
+              <div class="detail-item">
+                <img src="assets/clock.png" alt="Reloj" class="pixel-icon" />
+                <p class="pixel-detail"><strong>HORA:</strong> 14:00 hrs</p>
+              </div>
+              <div class="detail-item">
+                <img
+                  src="assets/location.png"
+                  alt="Ubicación"
+                  class="pixel-icon"
+                />
+                <p class="pixel-detail">
+                  <strong>LUGAR:</strong>
+                  <a
+                  href="https://maps.app.goo.gl/dho1r2SJ2ZDw72Rf8"
+                  target="_blank"
+                  >Ubicación Secreta
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <p class="greeting-text">
+              La puerta al digimundo se volvió a abrir... Y la verdad, no se dónde quedó... <br>
+              Así que mejor nos reunimos para celebrar mi cumpleaños y disfrutar la aventura.<br>
+            </p>
+
+            <a
+              href="https://wa.me/52551380832?text=¡Hola!%20Allá%20nos%20vemos%20:D"
+              target="_blank"
+              class="rsvp-btn"
+            >
+              <img src="assets/phone.png" alt="Phone" class="btn-icon" />
+              CONFIRMA TU ASISTENCIA +1
+            </a>
+          </main>
+        </div>
+
+        <div id="wave_footer"></div>
+      </div>
+
+      <footer>
+        <div id="footer_content">
+          <p class="footer-credits">©2026 Yukio Oikawa, et al</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
